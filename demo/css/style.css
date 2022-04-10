@@ -1,0 +1,116 @@
+	
+	@media screen and (max-width: 768px){
+    #banner .m{ margin-top: 25px; }
+}
+
+@media screen and (max-width: 768px){
+    #banner .n{ margin-top: -15px; }
+}
+	.pt-19{
+		padding-top: 19%;
+	}
+	.container-fluid{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	
+	section{
+			padding-top: 70px;
+			padding-bottom: 70px;
+		}
+	
+	header{
+		background: url(../image/banner.jpg) no-repeat 50% 50%;
+		position: relative;
+		background-size: cover;
+		width: 100%;
+		height: 480px;
+		overflow: hidden;
+	}
+	
+	header .section-content h1, header .section-content p{
+		position: relative;
+	} 
+	
+	header .head{
+		font-size: 3.5rem;
+	}
+	.overlay{
+		position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #212529;
+    opacity: 0.6;
+	}
+	
+	header .container, header .section-content a{
+		    color: #fff;
+	}
+	
+	header .section-content .font-weight{
+		font-weight: 500;
+		font-size: 18px;
+	}
+	#header .section-title > h2{
+		font-size: 40px;
+		font-weight: 600;
+	}
+
+	#banner{
+		padding-top: 30px;
+		padding-bottom: 70px;
+	}
+	#banner .section-heading > h4 a{
+		font-size: 18px;
+		font-weight: 600;
+		color: #000;
+		text-decoration: none;
+	}
+	
+	#banner .section-heading > h4 a:hover{
+		color: #5969dc;
+	}
+	#banner .section-image img{
+		box-shadow: 0 0 10px #abababa6;
+	}
+	
+	#banner .hvr-bob
+	#feature{
+		background-color: #f6f6f6;
+		border-top: 1px solid #dbdbdb;
+		border-bottom: 1px solid #dbdbdb;
+	}
+	
+	#feature .img-thumbnail{
+		min-height: 250px;
+    max-height: 250px;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    border-radius: 0;
+    padding: 50px 30px;
+    margin-bottom: 30px;
+    transition: all 0.2s;
+	}
+	
+	#feature .img-thumbnail:hover{
+		background-color: #212529;
+		color: #5969dc;
+	}
+	
+	#card .card{
+		box-shadow: 0 0 25px rgba(0,0,0, 0.3);
+		width: 70%;
+		padding: 65px 0;
+		padding-top: 30px;
+		margin: 0 auto;
+	}
+	
+	#card .section-rating i{
+		color: #f5d230;
+	}
+	
+	#footer{
+		background-color: #051829;
+	}
